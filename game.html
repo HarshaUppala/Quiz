@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./game.css">
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="containerGame">
+        <div class="left-container center">
+            <div class="img">
+                <img src="./choose.svg" alt="" srcset="">
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-center">
+                <div class="content">
+                <div class="game-status openDown">
+                    <div class="score badge">
+                        <p class="badge-heading">Total Score:
+                        <p id="scoreTxt" class="badgeElement badgeElement-score">00</p>
+                        </p>
+                    </div>
+                    <div class="remaining-questions badge">
+                        <p id="remainingQuestionsTxt" class="badgeElement badgeElement-question">00
+                        <p class="badge-heading">Questions remaining</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="center openUP">
+                    <div class="flex-container">
+                        <div id="progressBarContainer" class="progress-bar-container">
+                            <div id="progressBar" class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quizQuestionRender openDown">
+                <div class="questionContainer">
+                    <span id="questionNo">1</span>
+                    <h2 id="question">Can you awnser this question?</h2>
+                </div>
+                <div class="choice">
+                    <p class="choice-alphabet">A</p>
+                    <p class="choice-text" data-number='1'>Choice</p>
+                </div>
+                <div class="choice">
+                    <p class="choice-alphabet">B</p>
+                    <p class="choice-text" data-number='2'>Choice</p>
+                </div>
+                <div class="choice">
+                    <p class="choice-alphabet">C</p>
+                    <p class="choice-text" data-number='3'>Choice</p>
+                </div>
+                <div class="choice">
+                    <p class="choice-alphabet">D</p>
+                    <p class="choice-text" data-number='4'>Choice</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>

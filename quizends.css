@@ -1,0 +1,103 @@
+.recent-score{
+    margin:0 0;
+    font-size: 8rem;
+}
+
+.score-label{
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 2rem;
+}
+
+.input-for-name{
+    width: 20rem;
+    height: 4rem;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    backface-visibility: hidden;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.btn-container{
+    margin-top: 6rem;
+    margin-left: 0;
+    backface-visibility: hidden;
+}
+
+.img-score{
+    transform: translateX(0);
+}
+
+.img-class{
+    width: 40rem;
+}
+
+@media only screen and (max-width: 1517px) and (min-width: 400px)  {
+    
+    .container{
+        display: block;
+    }
+
+    .left-container{
+        height: 50vh;
+    }
+
+    .left-container img{
+        width: 30rem;
+    }
+
+    .score-label{
+        margin-top: 4rem;
+    }
+
+    .btn-container{
+        margin-top: 2rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 790px) and (min-width: 0px)  {
+
+    .container{
+        display: block;
+    }
+
+    .left-container{
+        height: 50vh;
+    }
+
+    .img-class{
+        width: 20rem;
+    }
+
+    .score-label{
+        margin-top: 4rem;
+    }
+
+    .btn-container{
+        margin-top: 2rem;
+    }
+
+    .btn{
+        width: 10rem;
+        font-size: 1.3rem;
+    }
+
+    .form-container{
+        margin-top: 2rem;
+    }
+
+    .right-container h1{
+        font-size: 6rem;
+    }
+
+}

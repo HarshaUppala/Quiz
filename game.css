@@ -1,0 +1,183 @@
+.containerGame{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 40% 60%);
+    grid-template-rows: repeat(5, 100%);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.right-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    animation: open 1s ease-in-out 0s 1 normal forwards;
+}
+
+h2{
+    font-size: 3rem;
+    color: #2f2e41;
+}
+
+.content{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.choice{
+    font-size: 2rem;
+    display: flex;
+    border: 0.1rem solid #B0A8B9;
+    margin-top: 1rem ;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.choice-alphabet{
+    padding: 1rem 1.5rem;
+    background-color:#6c63ff;
+    color: #141E46;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.choice-text{
+    padding: 1rem 1.5rem;
+    color: #141E46;
+    width: 100%;
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.correct{
+    background-color: rgba(42, 129, 42, 0.799);
+    border-radius: 0 1rem 1rem 0rem;
+}
+
+.incorrect{
+    background-color: rgba(180, 48, 48, 0.717);
+    border-radius: 0 1rem 1rem 0rem;
+}
+
+.questionContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #2f2e41;
+}
+
+.choice-text:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.progress-bar{
+    height: 1rem;
+    width: 0%;
+    background-color: #e4e4e4;
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+}
+
+.progress-bar-container{
+    border: 0.2rem solid #e4e4e4;
+    width: 71rem;
+    border-radius: 0.1rem;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+.game-status{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 4rem;
+}
+
+.badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-heading{
+    font-size: 1.5rem;
+    background-color: #e4e4e4;
+    color: #6c63ff;
+    padding: 0.5rem 0.5rem;
+}
+
+.badgeElement-score{
+    font-size: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    background-color: #e4e4e4;
+    color: #6c63ff;
+    border-left: 1px solid #6c63ff;
+    border-radius: 0px 113px 113px 0px;
+}
+
+.badgeElement-question{
+    font-size: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    background-color: #e4e4e4;
+    color: #6c63ff;
+    border-right: 1px solid #6c63ff;
+    border-radius: 113px 0px 0px 113px;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 375px)  {
+
+    .left-container{
+        width: 40vh;
+    }
+
+    .left-container img{
+        width: 40rem;
+    }
+
+    .choice{
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width: 934px) and (min-width: 0px)  {
+
+    .containerGame{
+        display: block;
+    }
+
+    .content{
+        margin: 1rem 1rem;
+        width: 35rem;
+    }
+
+    .right-container{
+        width: 0rem;
+    }
+    
+    .left-container{
+        content-visibility: hidden;
+    }
+
+    .choice{
+        width: 32rem;
+    }
+
+    .game-status{
+        margin-top: 4rem;
+    }
+
+    .progress-bar-container{
+        width: 32rem;
+    }
+
+    .badge-heading{
+        font-size: 1rem;
+    }
+
+    .badgeElement{
+        font-size: 1rem;
+    }
+}
+
+
