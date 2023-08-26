@@ -4,4 +4,4 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://ibb.co/D7pkmJp" alt="project-screenshot" width="20px" height="20px/">
+<img src="https://imgur.com/a/XjwIeYn" alt="project-screenshot" width="20px" height="20px/">
