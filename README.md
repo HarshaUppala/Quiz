@@ -10,11 +10,11 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.imgur.com/x3JOV5F.png" alt="project-screenshot" width="400" height="300/">
+<img src="https://i.imgur.com/x3JOV5F.png" alt="project-screenshot" width="600" height="300/">
 
-<img src="https://i.imgur.com/IlNeQQ8.png" alt="project-screenshot" width="400" height="300/">
+<img src="https://i.imgur.com/IlNeQQ8.png" alt="project-screenshot" width="600" height="300/">
 
-<img src="https://i.imgur.com/QYeqApR.png" alt="project-screenshot" width="400" height="300/">
+<img src="https://i.imgur.com/QYeqApR.png" alt="project-screenshot" width="600" height="300/">
 
 
   
